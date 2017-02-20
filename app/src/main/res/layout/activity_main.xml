@@ -4,6 +4,7 @@
     android:layout_height="match_parent">
 
     <fragment
+        android:id="@+id/overViewFragment"
         android:name="dernik.recyclerviewdatabinding.ui.fragments.OverViewFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

@@ -26,6 +26,6 @@ public class OverViewFragment extends Fragment {
         View view = binding.getRoot();
         viewModel = new OverViewViewModel();
         binding.setOverViewViewModel(viewModel);
-        return super.onCreateView(inflater, container, savedInstanceState);
+        return view;
     }
 }
