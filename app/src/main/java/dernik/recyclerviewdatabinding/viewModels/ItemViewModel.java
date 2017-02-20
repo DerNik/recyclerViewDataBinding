@@ -1,4 +1,4 @@
-package dernik.recyclerviewdatabinding;
+package dernik.recyclerviewdatabinding.viewModels;
 
 import android.databinding.ObservableInt;
 

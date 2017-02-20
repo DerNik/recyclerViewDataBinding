@@ -1,4 +1,4 @@
-package dernik.recyclerviewdatabinding;
+package dernik.recyclerviewdatabinding.viewModels.classes;
 
 /**
  * Created by Nik on 20.02.2017.

@@ -1,18 +1,18 @@
-package dernik.recyclerviewdatabinding;
+package dernik.recyclerviewdatabinding.ui.adapter.viewHolder;
 
 import android.support.v7.widget.RecyclerView;
-import android.view.View;
 
 import dernik.recyclerviewdatabinding.databinding.ItemDataBinding;
+import dernik.recyclerviewdatabinding.viewModels.ItemViewModel;
 
 /**
  * Created by Nik on 20.02.2017.
  */
 
-public class VieHolder extends RecyclerView.ViewHolder {
+public class ViewHolder extends RecyclerView.ViewHolder {
     private ItemDataBinding mDataBinding;
 
-    public VieHolder(ItemDataBinding dataBinding) {
+    public ViewHolder(ItemDataBinding dataBinding) {
         super(dataBinding.getRoot());
         this.mDataBinding = dataBinding;
     }

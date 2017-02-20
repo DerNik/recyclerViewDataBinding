@@ -4,10 +4,10 @@
     <data class = "ItemDataBinding">
         <variable
             name="viewModel"
-            type="dernik.recyclerviewdatabinding.ItemViewModel"/>
+            type="dernik.recyclerviewdatabinding.viewModels.ItemViewModel"/>
         <variable
             name="handler"
-            type="dernik.recyclerviewdatabinding.ImgClickHandler"/>
+            type="dernik.recyclerviewdatabinding.viewModels.classes.ImgClickHandler"/>
     </data>
 
     <RelativeLayout
@@ -26,8 +26,9 @@
         <ImageView
             android:id="@+id/img_view"
             android:layout_alignParentEnd="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@color/colorAccent"
             android:onClick="@{(v) -> handler.onImgClick()}"
             app:imgSrc="@{viewModel.imgSrcId}"/>
 
